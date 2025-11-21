@@ -1,13 +1,5 @@
 {
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "./"
-      }
-    }
-  ],
+  "public": true,
   "rewrites": [
     { "source": "/", "destination": "/index.html" }
   ]
